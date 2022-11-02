@@ -1,7 +1,7 @@
 const containerEl = document.querySelector(".d-flex");
-const f = "Fizz";
-const b = "Buzz";
-const fb = "FizzBuzz";
+const f = "Gabriella";
+const b = "Secchiona";
+const fb = "GabriellaSecchiona";
 
 for (let i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
