@@ -1,0 +1,22 @@
+.width-square {
+  aspect-ratio: 1/1;
+  width: 15%;
+}
+
+.flip {
+  animation: 1s anim-flipX ease infinite;
+}
+@keyframes anim-flip {
+  0% {
+    opacity: 0;
+    transform: rotateX(90def);
+  }
+  50% {
+    opacity: 1;
+    transform: rotateX(720deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(720deg);
+  }
+}
