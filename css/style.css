@@ -4,11 +4,11 @@
 }
 
 .flip {
-  animation: 1s anim-flip ease infinite;
+  animation: 3s anim-flip ease infinite;
 }
 @keyframes anim-flip {
   0% {
-    opacity: 0;
+    opacity: 1;
     transform: rotateX(90def);
   }
   50% {
