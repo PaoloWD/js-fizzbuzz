@@ -4,7 +4,7 @@
 }
 
 .flip {
-  animation: 1s anim-flipX ease infinite;
+  animation: 1s anim-flip ease infinite;
 }
 @keyframes anim-flip {
   0% {
